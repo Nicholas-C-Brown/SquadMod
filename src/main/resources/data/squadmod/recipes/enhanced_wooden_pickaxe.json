@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    " D ",
+    " D "
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "squadmod:enhanced_wooden_pickaxe",
+    "count": 1
+  },
+  "group": "squadmod"
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "squadmod",
+  "version": "${version}",
+
+  "name": "Squad Mod",
+  "description": "A mod for da squad.",
+  "authors": [
+    "Browntown",
+    "Keegachu"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/squadmod/squadmod.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.squad.squadmod.SquadMod"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
