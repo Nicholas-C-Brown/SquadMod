@@ -1,5 +1,6 @@
 package com.squad.squadmod.item;
 
+import com.squad.squadmod.registry.ModItems;
 import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
@@ -10,7 +11,9 @@ import java.util.function.Supplier;
 public enum CustomToolMaterials implements ToolMaterial {
 
 
-    ENHANCED_WOOD(MiningLevels.WOOD, 1561, 0.0f, 15, 15, () -> Ingredient.ofItems(Items.DIAMOND));
+    ENHANCED_WOOD(MiningLevels.WOOD, 1561, 0.0f, 15, 15, () -> Ingredient.ofItems(Items.DIAMOND)),
+    PLATINUM(MiningLevels.IRON, 221, 12.0F, 2.0F, 25, () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT));
+
 
     private final int miningLevel;
     private final int itemDurability;

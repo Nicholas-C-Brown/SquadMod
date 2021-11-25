@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "squadmod:raw_platinum"
+  },
+  "result": "squadmod:platinum_ingot",
+  "experience": 1.3,
+  "cookingtime": 200
+}
